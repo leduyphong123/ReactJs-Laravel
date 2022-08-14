@@ -1,0 +1,49 @@
+
+/* #no0 .first{
+  margin-left: 0;
+}
+#no1 .first{
+  margin-left: -20%;
+}
+#no2 .first{
+  margin-left: -30%;
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Menu{
+  @apply
+  py-4 
+  border-b-2
+   hover:text-pink-600 
+   transition 
+   duration-500 
+   ease-in 
+   md:text-left
+   md:px-5
+  md:py-2
+  md:border-none 
+}
+
+.ColorP{
+  @apply
+  text-[#7d879c]
+}
+.BorderP{
+  @apply
+  border-[#dae1e7]
+}
